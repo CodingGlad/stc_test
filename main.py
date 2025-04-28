@@ -1,4 +1,7 @@
 def main():
     print("Hello World!")
 
-main();
+text = input("Pozdrav me:")
+
+if text == "Ahoj":
+    main();
