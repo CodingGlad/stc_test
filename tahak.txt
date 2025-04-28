@@ -1,0 +1,46 @@
+ZAPNOUT AUTOMATIC SAVE
+git config --global -l
+git config --add user.name "Jakub Wodecki"
+git config --add user.email jakubwodecki@outlook.cz
+
+git init
+git stage .
+git commit
+git branch
+
+git branch 1-new-file
+git branch
+git switch 1-new-file
+git stage .
+git commit 
+
+//udelat novy soubor a prepinat se mezi vetvemi. Ukazat i pruzkumnik
+//vysvetlit checkout?
+
+git checkout -b 2-python-file
+//pridat python file a commit
+//pridat metodu a commit
+//pridat readme a commit
+//odstranit zbytecne soubory
+//vysvetlit commity a pak merge
+
+//hrani si s prvni branchi
+//pridat soubor a pak merge, vysvetlit, proc to slo
+//udelat upravu v puvodnim souboru a udelat tak conflict a vyresit pres zpravy
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+//jit udelat repo v githubu
+//pridat si ssh token
+
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+//projit pripojeni repozitare z lokalniho stroje
+//udelat issue, stahnout pullem, switch a prace
+//pull request
+//merge conflict
+//naklonovani
+
+//smazani vetvi
+//smazani repa
