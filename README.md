@@ -1,0 +1,1 @@
+Toto je ukazka GITu pro STC <3
